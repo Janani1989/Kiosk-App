@@ -2,16 +2,16 @@
 
 ## Non-functional Requirements
 
-Technology | MEAN | Python Django | MERN 
---- | --- | --- | --- | --- | --- | --- | ---
-Skills | 3.00 | 3.60 | 4.00 | 4.00 | 2.00 | 3.00 | 4.00
-Features | 4.50 | 3.60 | 4.00 | 4.50 | 4.00 | 3.50 | 4.00
-Constraints | 4.30 | 4.00 | 4.00 | 4.30 | 3.00 | 3.50 | 4.00
-Usability | 4.50 | 4.00 | 4.00 | 4.30 | 3.00 | 3.00 | 4.00
-Support / Community | 5.00 | 4.00 | 5.00 | 4.00 | 3.00 | 4.50 | 5.00
-Security | 3.00 | 5.00 | 3.50 | 3.50 | 4.00 | 4.50 | 3.00
-Complexity | 3.00 | 2.00 | 3.00 | 3.00 | 4.00 | 3.00 | 3.00
-Average | 3.80 | 3.70 | 3.90 | 3.90 | 3.30 | 3.60 | 3.90
+Technology | MEAN | Python Django | MEVN 
+--- | --- | --- | --- 
+Skills | 3.00 |  3.00 | 4.00
+Features | 4.50 | 3.50 | 4.00
+Constraints | 4.30 | 3.50 | 4.00
+Usability | 4.50 | 4.00 | 4.00
+Support / Community | 5.00 | 4.00 | 5.00
+Security | 3.00 | 4.00 | 3.00
+Complexity | 3.00  | 3.00 | 3.00
+Average | 3.80 | 3.60 | 3.90
 
 #### Framework Evaluation
 
