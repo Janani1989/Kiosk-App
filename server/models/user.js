@@ -3,7 +3,7 @@ const mongoose = require('mongoose'),
       bcrypt = require('bcryptjs')
 
 var User = new Schema({
-  displayName: {
+  name: {
     type: String,
     required: true
   },
@@ -13,22 +13,27 @@ var User = new Schema({
     unique: true,
     trim: true
   },
-  username: {
+  telephone: {
     type: String,
     required: true,
     unique: true,
     trim: true
   },
-  password: {
+  company:{
     type: String,
+    required: true,
   },
-  createdOn: {
-    type: Date,
+  isOfficialVisit:{
+    type:Boolean,
+    required:true
+  },
+  isEscortRequired: {
+    type:Boolean,
     required: true
   },
-  isAdmin:{
-    type: Boolean,
-    default: false
+  escortName:{
+    type: String,
+    default:""
   }
 })
 

@@ -1,8 +1,8 @@
 {
-  "name": "toro-net",
-  "description": "Toro Net",
+  "name": "kiosk-app",
+  "description": "Kiosk App",
   "version": "0.0.1",
-  "author": "CSUDH CSC 583 Team",
+  "author": "Janani Janardhanan",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
@@ -10,7 +10,6 @@
     "start": "node server"
   },
   "dependencies": {
-    "apoc": "^2.1.6",
     "axios": "^0.16.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.1",
@@ -28,9 +27,9 @@
     "passport-github": "^1.1.0",
     "passport-github2": "^0.1.11",
     "passport-local": "^1.0.0",
-    "req-flash": "0.0.3",
     "vee-validate": "^2.0.0-rc.19",
     "vue": "^2.2.1",
+    "vue-infinite-loading": "^2.2.3",
     "vue-router": "^2.4.0",
     "vuex": "^2.3.0"
   },

@@ -10,7 +10,7 @@ router.get('/isauth', (req, res, next) => {
 
 router.get('/logout', (req, res, next) => {
   req.logout()
-  res.redirect('/')
+  res.redirect('/admin')
 })
 
 router.get('*', (req, res, next) => {

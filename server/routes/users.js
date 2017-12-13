@@ -1,11 +1,9 @@
   const express = require('express'),
-        flash = require('req-flash'),
       User = require('../models/user')
      
   /* apoc require statement must always go after the explicit loading of the 
  * .env file */
 require('dotenv').load()
-const apoc = require('apoc')  
 var checkAuth = require('./index.js').checkAuth
 module.exports = (() => {
     'use strict';
@@ -54,14 +52,13 @@ module.exports = (() => {
      else{
 
         const newUser = new User({
-          displayName: req.body.displayName,
+          name: req.body.name,
+          company: req.body.company,
           email: req.body.email,
-          username: req.body.username,
-          password: req.body.password,
-          question1: req.body.question1,
-          question2: req.body.question2,
-          question3: req.body.question3,
-          createdOn: new Date
+          telephone: req.body.telephone,
+          isOfficialVisit: req.body.isOfficialVisit,
+          isEscortRequired:req.body.isEscortRequired,
+          escortName:req.body.escortName
         })
 
         
@@ -85,15 +82,7 @@ module.exports = (() => {
             
               throw err
           }
-           /* Creates a cypher query to add new user to friend graph. */
-           const queryString = `CREATE (u:User { username: "${req.body.username}" })`
-           const query = apoc.query(queryString)
-           query.exec().then((result) => {
-             console.log(result)
-           }, (fail) => {
-             console.log(fail)
-             res.status(666).send()
-           })
+           
           res.status(200).send();
           
         })

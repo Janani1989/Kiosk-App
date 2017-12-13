@@ -7,10 +7,7 @@ Vue.use(Vuex)
 
 const state = {
   user: {},
-  counts: {
-    count: -1
-  },
-  posts: {}
+  
 }
 
 export default new Vuex.Store({

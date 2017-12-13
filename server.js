@@ -6,11 +6,9 @@ const express = require('express'),
       passport = require('passport'),
       session = require('express-session'),
       cel = require('connect-ensure-login'),
-      count = require('./server/routes/count'),
       auth = require('./server/routes/auth'),
       index = require('./server/routes/index'),
       users = require('./server/routes/users'),
-      posts = require('./server/routes/posts'),
       admin = require('./server/routes/admin'),
       MongoStore = require('connect-mongo')(session)
 
@@ -28,7 +26,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(session({
-  secret: 'toro-net',
+  secret: 'kiosk-app',
   resave: false,
   saveUninitialized: false,
   cookie: { httpOnly: true, maxAge: 2495000000 },
@@ -42,8 +40,6 @@ app.use(passport.session())
 app.use('/admin', admin),
 app.use('/users', users),
 app.use('/auth', auth),
-app.use('/count', count),
-app.use('/posts', posts),
 app.use('/', index)
 
 /* Catch all errors and log them. */
