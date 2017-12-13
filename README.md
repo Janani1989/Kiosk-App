@@ -21,21 +21,21 @@ After evaluating each framework carefully, the MEVN Stack was chosen for develop
 
 1. The Kiosk sign-in app requires a registration screen for users to sign up.
 
-    [User Registration Screen] (https://github.com/janani1989/Kiosk-App/tree/backend/images/UserRegistration.png)
+    [User Registration Screen](https://github.com/janani1989/Kiosk-App/tree/backend/images/UserRegistration.png)
 
 2. The Admin View requires authentication.
 
     2.a) Admin registration
 
-    [Admin Sign-Up Screen] (https://github.com/janani1989/Kiosk-App/tree/backend/images/AdminRegister.png)
+    [Admin Sign-Up Screen](https://github.com/janani1989/Kiosk-App/tree/backend/images/AdminRegister.png)
 
     2.b) Admin Login
 
-    [Admin Authentication Screen] (https://github.com/janani1989/Kiosk-App/tree/backend/images/AdminRegister.png)
+    [Admin Authentication Screen](https://github.com/janani1989/Kiosk-App/tree/backend/images/AdminRegister.png)
 
 3. The Admin View showing all users.
 
-    [Admin View Screen] (https://github.com/janani1989/Kiosk-App/tree/backend/images/AdminView.png)
+    [Admin View Screen](https://github.com/janani1989/Kiosk-App/tree/backend/images/AdminView.png)
 
 
 ## Installation Instructions
