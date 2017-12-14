@@ -5,13 +5,13 @@
 Technology | MEAN | Python Django | MEVN 
 --- | --- | --- | --- 
 Skills | 3.00 |  3.00 | 4.00
-Features | 4.50 | 3.50 | 4.00
+Features | 4.40 | 3.50 | 4.00
 Constraints | 4.30 | 3.50 | 4.00
 Usability | 4.50 | 4.00 | 4.00
 Support / Community | 5.00 | 4.00 | 5.00
 Security | 3.00 | 4.00 | 3.00
 Complexity | 3.00  | 3.00 | 3.00
-Average | 3.80 | 3.60 | 3.90
+Average | 3.80 | 3.70 | 3.90
 
 #### Framework Evaluation
 
